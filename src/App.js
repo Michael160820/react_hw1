@@ -4,13 +4,14 @@
 // репрезентувати тільки окремі поля (зазначені в скрнішоті в папці)
 
 import React from 'react';
+import {Launches} from "./components/Launches/Launches";
 
 const App = () => {
   return (
       <div>
-        
+        <Launches/>
       </div>
   );
 };
 
-export default App;
+export {App};
