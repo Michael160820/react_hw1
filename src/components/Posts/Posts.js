@@ -1,11 +1,11 @@
 import React from 'react';
 
-const App = () => {
+const Posts = () => {
     return (
         <div>
-          App
+            
         </div>
     );
 };
 
-export {App};
+export default Posts;
